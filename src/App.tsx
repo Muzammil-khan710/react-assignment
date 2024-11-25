@@ -1,11 +1,7 @@
+import { Todo } from "./components";
+
 function App() {
-  return (
-    <>
-      <div className='text-red-300'> 
-          hello
-        </div>
-    </>
-  )
+  return <Todo />;
 }
 
-export default App
+export default App;
